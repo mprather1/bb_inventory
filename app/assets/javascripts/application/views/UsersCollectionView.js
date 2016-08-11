@@ -9,6 +9,6 @@ var UsersCollectionView = Backbone.View.extend({
   },
   addUser: function(user){
     var userView = new UserView({model: user});
-    $('body').append(this.$el.append(userView.render().el));
+    $('#list').append(this.$el.append(userView.render().el));
   }
 });
