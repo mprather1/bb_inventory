@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  resources :users
+  get 'user/:id' => 'users#show'
+  get 'users/index' => 'users#index'
   root to: 'application#index'
 end

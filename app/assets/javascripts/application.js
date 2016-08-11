@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery
 //= require ./application/lib/underscore
 //= require ./application/lib/backbone
 //= require ./application/main
+//= require ./application/models/User
