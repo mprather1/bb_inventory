@@ -15,3 +15,6 @@
 //= require ./application/lib/backbone
 //= require ./application/main
 //= require ./application/models/User
+//= require ./application/collections/UsersCollection
+//= require ./application/views/UserView
+//= require ./application/views/UsersCollectionView
