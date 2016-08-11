@@ -13,8 +13,8 @@
 //= require jquery
 //= require ./application/lib/underscore
 //= require ./application/lib/backbone
+//= require ./application/config
+//= require_tree ./application/models
+//= require_tree ./application/collections
+//= require_tree ./application/views
 //= require ./application/main
-//= require ./application/models/User
-//= require ./application/collections/UsersCollection
-//= require ./application/views/UserView
-//= require ./application/views/UsersCollectionView
